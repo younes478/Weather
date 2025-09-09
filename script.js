@@ -9,7 +9,7 @@ const forecast = document.getElementById('forecast');
 // Event listeners
 searchBtn.addEventListener('click', getWeather);
 cityInput.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === '10dacf08c11cd5f441f73f1415589408') {
         getWeather();
     }
 });
