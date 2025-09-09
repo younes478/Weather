@@ -1,4 +1,4 @@
-const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your OpenWeatherMap API key
+const API_KEY = '10dacf08c11cd5f441f73f1415589408'; // Replace with your OpenWeatherMap API key
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 const cityInput = document.getElementById('city-input');
@@ -9,7 +9,7 @@ const forecast = document.getElementById('forecast');
 // Event listeners
 searchBtn.addEventListener('click', getWeather);
 cityInput.addEventListener('keypress', (e) => {
-    if (e.key === '10dacf08c11cd5f441f73f1415589408') {
+    if (e.key === 'Enter') {
         getWeather();
     }
 });
